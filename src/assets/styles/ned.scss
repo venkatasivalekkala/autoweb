@@ -1,0 +1,80 @@
+.ned {
+  .rte{
+    .cke_button__justifyblock {
+      display: none;
+    }
+    .cke_combo_on {
+      border: 1px #bcbcbc solid;
+      margin-left: 0;
+    }
+    .cke_combo__font {
+      width: 35px;
+      height: 28px;
+      box-sizing: border-box;
+      margin-bottom: 0;
+      .cke_combo_button {
+        display: inline-block;
+        height: 18px;
+        padding: 4px 6px;
+        margin-left: 0!important;
+        outline: 0;
+        cursor: default;
+        float: left;
+        border: 0;
+        position: relative;
+        &:hover,
+        &:active,
+        &:focus {
+          padding: 4px 6px;
+          margin-left: 0!important;
+        }
+      }
+      .cke_combo_text {
+        background-image: url(../images/ned/font.png);
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+        padding-left: 0;
+        font-size: 0;
+        line-height: 0;
+        overflow: hidden;
+      }
+      .cke_combo_open {
+        margin: 0;
+      }
+      .cke_combo_arrow {
+        margin: 8px 0 0 1px;
+      }
+      &:after { border:none!important; }
+      &:hover,
+      &:active,
+      &:focus {
+        @extend .cke_combo_on;
+      }
+    }
+    .cke_combo__fontsize {
+      @extend .cke_combo__font;
+      .cke_combo_text{
+        background-image: url(../images/ned/font-size.png)!important;
+      }
+    }
+    .cke_bottom {
+      display: none;
+    }
+  }
+  .controls{
+    border: 1px solid #d1d1d1;
+    border-top: 0;
+    background-color: #f8f8f8 !important;
+    position:relative;
+    padding: 0px 130px 0px 0px !important;
+
+    .done{
+      border: 1px solid #0288d1;
+      position: absolute;
+      top: 9px;
+      right: 18px;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+Run setup.sh which does the following:
+
+1.  Install Homebrew
+2.  Install Node
+3.  Install Watchman
+4.  Install React Native CLI
+5.  Recreate native folder
+6.  Setup app
